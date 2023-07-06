@@ -6,9 +6,18 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-09ebe63f49864479b5b59e811f5b0c6e">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-f56298e140134c19bc256889b932e532"
+        source="id-09ebe63f49864479b5b59e811f5b0c6e"
+        target="id-7f2cd1515a784fdba1f2c6ef6e441f51">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-6db66e2dd734405b87504b37d8713b92.xml#id-6db66e2dd734405b87504b37d8713b92"/>
+    </sourceConnections>
     <bounds
-        x="544"
-        y="132"
+        x="552"
+        y="133"
         width="120"
         height="55"/>
     <archimateElement
@@ -17,7 +26,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-7f2cd1515a784fdba1f2c6ef6e441f51">
+      id="id-7f2cd1515a784fdba1f2c6ef6e441f51"
+      targetConnections="id-f56298e140134c19bc256889b932e532">
     <bounds
         x="360"
         y="133"
